@@ -15,12 +15,23 @@
   ],
   "scripts": {
     "build": "napi build --platform --release",
-    "build:debug": "napi build --platform"
+    "build:debug": "napi build --platform",
+    "artifacts": "napi artifacts",
+    "prepublishOnly": "napi prepublish -t npm"
   },
   "devDependencies": {
     "@napi-rs/cli": "^2.18.3"
   },
   "napi": {
-    "name": "fast-text-censor"
+    "name": "fast-text-censor",
+    "triples": {
+      "defaults": true,
+      "additional": []
+    }
+  },
+  "optionalDependencies": {
+    "fast-text-censor-win32-x64-msvc": "1.0.0",
+    "fast-text-censor-darwin-x64": "1.0.0",
+    "fast-text-censor-linux-x64-gnu": "1.0.0"
   }
 }
