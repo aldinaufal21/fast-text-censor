@@ -1,6 +1,10 @@
 {
   "name": "fast-text-censor-win32-x64-msvc",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldinaufal21/fast-text-censor.git"
+  },
   "os": [
     "win32"
   ],
