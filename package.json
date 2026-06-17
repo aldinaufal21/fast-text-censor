@@ -17,7 +17,8 @@
     "build": "napi build --platform --release",
     "build:debug": "napi build --platform",
     "artifacts": "napi artifacts",
-    "prepublishOnly": "napi prepublish -t npm"
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "echo \"No tests specified\""
   },
   "devDependencies": {
     "@napi-rs/cli": "^2.18.3"
