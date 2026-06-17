@@ -1,4 +1,5 @@
 {
+
   "name": "fast-text-censor",
   "version": "1.0.0",
   "description": "Fast text censor using Aho-Corasick in Rust",
