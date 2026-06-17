@@ -1,0 +1,26 @@
+{
+  "name": "fast-text-censor",
+  "version": "1.0.0",
+  "description": "Fast text censor using Aho-Corasick in Rust",
+  "main": "lib.js",
+  "types": "lib.d.ts",
+  "files": [
+    "lib.js",
+    "lib.d.ts",
+    "censor.js",
+    "index.js",
+    "index.d.ts",
+    "list/*.txt",
+    "*.node"
+  ],
+  "scripts": {
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.3"
+  },
+  "napi": {
+    "name": "fast-text-censor"
+  }
+}
