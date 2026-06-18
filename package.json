@@ -1,6 +1,6 @@
 {
   "name": "fast-text-censor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fast text censor using Aho-Corasick in Rust",
   "main": "lib.js",
   "types": "lib.d.ts",
