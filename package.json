@@ -1,6 +1,6 @@
 {
   "name": "fast-text-censor",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Fast text censor using Aho-Corasick in Rust",
   "main": "lib.js",
   "types": "lib.d.ts",
@@ -35,8 +35,8 @@
     }
   },
   "optionalDependencies": {
-    "fast-text-censor-win32-x64-msvc": "1.0.0",
-    "fast-text-censor-darwin-x64": "1.0.0",
-    "fast-text-censor-linux-x64-gnu": "1.0.0"
+    "fast-text-censor-win32-x64-msvc": "1.1.0",
+    "fast-text-censor-darwin-x64": "1.1.0",
+    "fast-text-censor-linux-x64-gnu": "1.1.0"
   }
 }
